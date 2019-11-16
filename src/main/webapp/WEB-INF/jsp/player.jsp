@@ -12,6 +12,20 @@
 
 <html lang="en">
   <body>
+
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="http://localhost:8080/">Lakers Stats</a>
+        </div>
+        <ul class="nav navbar-nav">
+          <li><a href="http://localhost:8080/">Home</a></li>
+          <li><a href="http://localhost:8080/roster">Roster</a></li>
+          <li><a href="http://localhost:8080/schedule">Schedule</a></li>
+        </ul>
+      </div>
+    </nav>
+
     <img src="${imgPath}" alt="Player Image" width="260" height="190">
     <table class="table table-striped">
 

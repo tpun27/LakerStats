@@ -13,6 +13,19 @@
 <html lang="en">
   <body>
 
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="http://localhost:8080/">Lakers Stats</a>
+        </div>
+        <ul class="nav navbar-nav">
+          <li><a href="http://localhost:8080/">Home</a></li>
+          <li><a href="http://localhost:8080/roster">Roster</a></li>
+          <li class="active"><a href="http://localhost:8080/schedule">Schedule</a></li>
+        </ul>
+      </div>
+    </nav>
+
     <div class="jumbotron" style="background-color:#FFED64;">
       <h1 class="display-1">Games Played</h1>
     </div>
