@@ -12,6 +12,7 @@
 
 <html lang="en">
   <body>
+    <img src="${imgPath}" alt="Player Image" width="260" height="190">
     <table class="table table-striped">
 
       <c:forEach items="${playerData}" var="row" begin="0" end="0">

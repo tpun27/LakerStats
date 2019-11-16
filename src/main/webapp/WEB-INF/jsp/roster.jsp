@@ -12,6 +12,7 @@
 
 <html lang="en">
   <body>
+    <img src="/img/logo.svg" alt="Logo" width="260" height="190">
     <table class="table table-striped">
 
       <c:forEach items="${rosterData}" var="row" begin="0" end="0">

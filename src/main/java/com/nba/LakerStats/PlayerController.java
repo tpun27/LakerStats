@@ -10,10 +10,15 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RequestMapping("/player/{id}")
 public class PlayerController {
 
+    final static String IMG_PATH_START = "/img/";
+    final static String IMG_PATH_END = ".png";
+
     @GetMapping
     public String getPlayer(Model model, @PathVariable("id") String id) {
-        String path = CSVUtility.CSV_PATH_START + id + CSVUtility.CSV_PATH_END;
-        model.addAttribute("playerData", CSVUtility.parseCSVData(path));
+        String csvPath = CSVUtility.CSV_PATH_START + id + CSVUtility.CSV_PATH_END;
+        String imgPath = IMG_PATH_START + id + IMG_PATH_END;
+        model.addAttribute("playerData", CSVUtility.parseCSVData(csvPath));
+        model.addAttribute("imgPath", imgPath);
         return "player";
     }
 }

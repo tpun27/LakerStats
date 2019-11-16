@@ -10,7 +10,7 @@ import java.util.List;
 
 public class CSVUtility {
 
-    final static String CSV_PATH_START = "src/main/resources/static/";
+    final static String CSV_PATH_START = "src/main/resources/static/csv/";
     final static String CSV_PATH_END = ".csv";
     final static String ROSTER_PATH = CSV_PATH_START + "LakersRoster.csv";
 
