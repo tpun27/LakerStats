@@ -13,6 +13,8 @@ public class CSVUtility {
     final static String CSV_PATH_START = "src/main/resources/static/csv/";
     final static String CSV_PATH_END = ".csv";
     final static String ROSTER_PATH = CSV_PATH_START + "LakersRoster.csv";
+    final static String GAMES_PLAYED_PATH = CSV_PATH_START + "games_played.csv";
+    final static String GAMES_SCHEDULED_PATH = CSV_PATH_START + "games_scheduled.csv";
 
     public static ArrayList<List<String>> parseCSVData(String path) {
         ArrayList<List<String>> data = new ArrayList<>();
