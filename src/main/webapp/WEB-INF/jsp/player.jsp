@@ -8,6 +8,9 @@
   <title>Player</title>
   <link href="/webjars/bootstrap/3.4.1/css/bootstrap.min.css" rel="stylesheet">
   <script src="/webjars/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style type="text/css">
+     body { background: #659DBD; !important; }
+  </style>
 </head>
 
 <html lang="en">
